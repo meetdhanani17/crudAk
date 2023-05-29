@@ -1,0 +1,26 @@
+NODE_ENV=development
+NODE_SERVER_PORT=5001
+NODE_SERVER_HOST=localhost
+JWT_SECRET=0a6b944d-d2fb-46fc-a85e-0295c986cd9f
+
+CUSTOM_HEADER = newnorm_itechnotion
+CUSTOM_SECRET = 0a6b944d-d2fb-46fc-a85e-0295c986cd9f
+
+MONGODB_DB_URL=mongodb+srv://newnormuser:9527%263N1EDB@cluster0.ywi2p.mongodb.net/newnormdev?retryWrites=true&w=majority
+MONGO_PORT=27017
+
+ACCESS_KEY=AKIAZNWFHXDCU5IWIB6Y
+SECRET_KEY=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
+BUCKET_NAME=newnorm-dev
+REGION_NAME=ap-south-1
+ACL_MODE=public-read
+
+SALTING_ROUNDS=10
+WEBSITE_URL = https://devapp.newnorm.one
+
+#End point for calling api in another sub service
+GRP_NETWORK_EVENT_ATTENDEE = http://localhost:2001/
+OTO_NETWORK_EVENT_ATTENDEE = http://localhost:2001/
+RECEPTION_SPONSOR = http://localhost:2001/
+RECEPTION_EVENT_ATTENDEE = http://localhost:2001/
+RECEPTION_EVENT_SCHEDULE = http://localhost:2001/
